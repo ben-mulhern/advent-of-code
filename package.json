@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Advent of code 2020 challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-mulhern/advent-of-code.git"
+  },
+  "author": "Ben Mulhern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-mulhern/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/ben-mulhern/advent-of-code#readme",
+  "dependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
+}
