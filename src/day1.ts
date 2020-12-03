@@ -1,7 +1,8 @@
-import * as fs from "fs"
+import { fileToArray } from "./fileToArray"
 
-const text: string = fs.readFileSync(__dirname + "/day1_numbers.txt", "utf-8")
-const ints: number[] = text.split("\n").map((t) => Number(t))
+const arr = fileToArray("day1_numbers.txt")
+console.log(arr)
+const ints = arr.map((t) => Number(t))
 const target: number = 2020
 const pairs = ints.flatMap((i) => ints.map((j) => [i, j]))
 const pair = pairs.find((p) => p[0] + p[1] === target && p[0] !== p[1])

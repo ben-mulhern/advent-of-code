@@ -4,7 +4,8 @@
   "description": "Advent of code 2020 challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,15 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "ts-node": "^9.0.0",
-    "typescript": "^4.1.2"
+    "typescript": "^4.1.2",
+    "@types/jest": "^26.0.10",
+    "ts-jest": "^26.3.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.10"
+    "@types/node": "^14.14.10",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2"
   }
 }
